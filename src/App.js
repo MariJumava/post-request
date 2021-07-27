@@ -39,7 +39,7 @@ const SignIn = () => {
         placeholder="Enter password"
         onChange={userPassword}
       />
-      <button type="submit" onClick={signIn}>
+      <button type="button" onClick={signIn}>
         Sign In
       </button>
       <p>{text}</p>
