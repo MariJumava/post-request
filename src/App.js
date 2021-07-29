@@ -16,8 +16,8 @@ class App extends React.Component {
     return (
       <div>
         <button onClick={this.addNameUser}>ADD NAME</button>
-        {this.state.people.map((name, index) => {
-          return <div key={index}>{name}</div>;
+        {this.state.people.map((name) => {
+          return <div key={name}>{name}</div>;
         })}
       </div>
     );
